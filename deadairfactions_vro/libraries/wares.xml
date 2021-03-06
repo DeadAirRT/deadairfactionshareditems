@@ -113,6 +113,18 @@
   <add sel="/wares/ware[@id='missile_interceptor']">
     <owner faction="mindatar" />
   </add>
+  <add sel="/wares/ware[@id='ship_spl_l_viper']">
+    <owner faction="mindatar" />
+  </add>
+  <add sel="/wares/ware[@id='turret_spl_multilauncher']">
+    <owner faction="mindatar" />
+  </add>
+  <add sel="/wares/ware[@id='missile_serpentnest']">
+    <owner faction="mindatar" />
+  </add>
+  <add sel="/wares/ware[@id='engine_spl_m_large']">
+    <owner faction="mindatar" />
+  </add>
 <!-- Galdente use short range + filler Paranid -->
   <add sel="/wares/ware[@id='weapon_par_l_tribeam']">
     <owner faction="galdente" />

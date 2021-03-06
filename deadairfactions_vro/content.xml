@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactions_VRO" name="DeadAir Factions VRO" description="" author="DeadAir" version="001" date="2021-03-03" save="0" sync="false">
+<content id="DeadAirFactions_VRO" name="DeadAir Factions VRO" description="" author="DeadAir" version="002" date="2021-03-06" save="0" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
   <dependency id="ws_1696862840" name="VRO" optional="true" />
   <dependency id="vro_lite" name="VRO_lite" optional="true" />
