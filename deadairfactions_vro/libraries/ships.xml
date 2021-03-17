@@ -8,7 +8,7 @@
 	  <select faction="damarr" tags="fighterpilot"/>
 	</pilot>
 	<drop ref="ship_large_military"/>
-	<people ref="argon_military_crew"/>
+	<people ref="argon_elite_military_crew"/>
   </ship>
 </add>
 <!-- MINDATAR -->
@@ -19,18 +19,18 @@
 	  <select faction="mindatar" tags="fighterpilot"/>
 	</pilot>
 	<drop ref="ship_large_military"/>
-	<people ref="argon_military_crew"/>
+	<people ref="argon_elite_military_crew"/>
   </ship>
 </add>
 <!-- GALDENTE -->
 <add sel="//ships">
-  <ship id="galdente_battleship_xl" group="spl_battleship_xl">
+  <ship id="galdente_battleship_xl" group="par_battleship_xl">
 	<category tags="[military, battleship, mission]" faction="[galdente]" size="ship_xl"/>
 	<pilot>
 	  <select faction="galdente" tags="fighterpilot"/>
 	</pilot>
 	<drop ref="ship_large_military"/>
-	<people ref="argon_military_crew"/>
+	<people ref="argon_elite_military_crew"/>
   </ship>
 </add>
 <!-- DALDARI -->
@@ -41,7 +41,7 @@
 	  <select faction="daldari" tags="fighterpilot"/>
 	</pilot>
 	<drop ref="ship_large_military"/>
-	<people ref="argon_military_crew"/>
+	<people ref="argon_elite_military_crew"/>
   </ship>
 </add>
 <!-- VRO SPECIFIC -->
