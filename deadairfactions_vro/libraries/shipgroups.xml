@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-
+	<add sel="//groups/group[@name='dal_destroyer_l']">
+		<select macro="ship_tel_l_shrike_a_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='dam_destroyer_l']">
+		<select macro="ship_arg_l_centaur_a_macro" weight="25"/>
+		<select macro="ship_arg_l_cyclops_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='dga_destroyer_l']">
+		<select macro="ship_par_l_hyperion_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='dmi_destroyer_l']">
+		<select macro="ship_spl_l_panther_a_macro" weight="50"/>
+		<select macro="ship_spl_l_viper_macro" weight="50"/>
+	</add>
 </diff>
