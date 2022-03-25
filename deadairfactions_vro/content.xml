@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactions_VRO" name="DeadAir Factions VRO" description="" author="DeadAir" version="004" date="2021-03-21" save="0" sync="false">
+<content id="DeadAirFactions_VRO" name="DeadAir Factions VRO" description="" author="DeadAir" version="006" date="2022-03-24" save="0" sync="false">
   <dependency id="ego_dlc_split" optional="true" name="Split Vendetta" />
   <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
   <dependency id="ws_1696862840" name="VRO" optional="true" />
   <dependency id="vro_lite" name="VRO_lite" optional="true" />
   <dependency id="DeadAirFactionDamarr" name="DeadAir Faction Damarr" optional="true" />

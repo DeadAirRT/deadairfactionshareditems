@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<macros>
+  <macro name="turret_dal_m_ham_01_mk1_macro" class="missileturret" alias="turret_tel_m_guided_02_mk1_macro">
+    <component ref="turret_dal_m_ham_01_mk1" />
+    <properties>
+      <identification name="{20105,4304}" basename="{20105,4301}" shortname="{20105,4305}" makerrace="teladi" description="{20105,4302}" mk="1" />
+      <ammunition tags="guided" />
+      <bullet class="missile_guided_light_mk1_macro" />
+      <rotationspeed max="90" />
+      <reload />
+      <storage capacity="50" />
+      <hull threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>-->
+<diff>
+<replace sel="//ammunition/@tags">guided mguided hguided</replace>
+</diff>
