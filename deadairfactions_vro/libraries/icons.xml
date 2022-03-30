@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/icons">
+		<icon name="ship_l_battlecruiser" texture="extensions\deadairfactions_vro\assets\fx\gui\textures\shipicon\ship_l_battlecruiser.tga" height="128" width="128"/>
+		<icon name="ship_l_battleship" texture="extensions\deadairfactions_vro\assets\fx\gui\textures\shipicon\ship_l_battleship.tga" height="128" width="128"/>
+	</add>
+</diff>
