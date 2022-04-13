@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<diff>
-<replace sel="//connection[@name='con_turret_l_01']/@tags">turret large standard missile hittable</replace>
-<replace sel="//connection[@name='con_turret_l_02']/@tags">turret large standard missile hittable</replace>
-</diff>

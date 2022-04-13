@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//themes">
+		<theme id="painttheme_player_deadair" default="error_theme" name="{20114,10011}">
+			<group faction="player" paintmod="paintmod_0001"/>
+		</theme>
+	</add>
+</diff>

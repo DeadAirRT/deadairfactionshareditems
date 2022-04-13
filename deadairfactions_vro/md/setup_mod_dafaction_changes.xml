@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_DAFACTION_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
+    <cue name="Game_Loaded" namespace="this" instantiate="true">
+      <conditions>
+        <event_game_loaded/>
+      </conditions>
+      <actions>
+        <include_actions ref="Change_Actions"/>
+      </actions>
+    </cue>
+
+    <library name="Change_Actions">
+      <actions>
+		<do_if value="not player.blueprints.{ware.paintmod_0001}.any.exists">
+			<add_blueprints wares="ware.paintmod_0001"/>
+		</do_if>
+      </actions>
+    </library>
+  </cues>
+</mdscript>

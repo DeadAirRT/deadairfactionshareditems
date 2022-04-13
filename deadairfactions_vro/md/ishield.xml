@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="IshieldEncyclopedia">
+	<cues>
+		<cue name="Init">
+			<conditions>
+				<check_any>
+					<event_cue_signalled cue="md.Setup.GameStart"/>
+					<event_player_created/>
+					<event_cue_signalled/>
+				</check_any>
+			</conditions>
+			<actions>
+			</actions>
+			<cues>
+				<cue name="Ishields_encyclopedia" instantiate="false">
+					<delay exact="10s"/>
+					<actions>
+						<get_ware_definition result="$shields" flags="equipment" tags="tag.shield" faction="faction.player"/>
+						<do_for_each name="$shield" in="$shields">
+							<set_value name="$shieldobjectmacro" exact="$shield.objectmacro"/>
+							<add_encyclopedia_entry type="shieldgentypes" item="$shieldobjectmacro.id"/>
+						</do_for_each>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>
