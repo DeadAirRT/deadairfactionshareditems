@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mdscript name="Setup_DAFACTION_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
-  <cues>
-    <!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
-    <cue name="Game_Loaded" namespace="this" instantiate="true">
-      <conditions>
-        <event_game_loaded/>
-      </conditions>
-      <actions>
-        <include_actions ref="Change_Actions"/>
-      </actions>
-    </cue>
-
-    <library name="Change_Actions">
-      <actions>
-		<do_if value="not player.blueprints.{ware.paintmod_0001}.any.exists">
-			<add_blueprints wares="ware.paintmod_0001"/>
-		</do_if>
-      </actions>
-    </library>
-  </cues>
+<mdscript name="Setup_DAFACTIONSVRO_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<actions>
+				<set_value name="$ALIWharfFixed" exact="false"/>
+			</actions>
+			<cues>
+				<cue name="Game_Loaded" namespace="this" instantiate="true">
+					<conditions>
+						<event_universe_generated/>
+					</conditions>
+					<actions>
+						<do_if value="not player.blueprints.{ware.paintmod_0001}.any.exists">
+							<include_actions ref="Add_Paint_Job"/>
+						</do_if>
+						<do_if value="(not $ALIWharfFixed?) or $ALIWharfFixed == false">
+							<include_actions ref="Fix_ALI_Wharf"/>
+						</do_if>
+					</actions>
+				</cue>
+				<library name="Add_Paint_Job">
+					<actions>
+						<do_if value="not player.blueprints.{ware.paintmod_0001}.any.exists">
+							<add_blueprints wares="ware.paintmod_0001"/>
+						</do_if>
+					</actions>
+				</library>
+				<library name="Fix_ALI_Wharf">
+					<actions>
+						<do_if value="not $ALIWharfFixed?">
+							<set_value name="$ALIWharfFixed" exact="true"/>
+							<find_station_by_true_owner name="$ALIWharf" faction="faction.alliance" wharf="true" space="player.galaxy" required="true"/>
+							<create_list name="$Add"/>
+							<get_ware_definition result="$IShieldTempList" faction="faction.alliance" tags="tag.ishield"/>
+							<set_value name="$ALIWharfBuild" exact="$ALIWharf.buildequipment.wares.list"/>
+							<debug_text text="'MOD: DeadAirFactionsVRO -- %1 -- Checking $ALIWharfBuild.count %2'.[player.age,$ALIWharfBuild.count]" context="false" filter="scripts"/>
+							<do_for_each name="$IShield" in="$IShieldTempList">
+								<do_if value="not $ALIWharfBuild.indexof.{$IShield}">
+									<append_to_list name="$Add" exact="$IShield"/>
+								</do_if>
+							</do_for_each>
+							<do_if value="$Add.count">
+								<set_equipment_wares_included object="$ALIWharf" wares="$Add" append="true"/>
+								<debug_text text="'MOD: DeadAirFactionsVRO -- %1 -- Fixing $ALIWharfBuild.count %2'.[player.age,$ALIWharf.buildequipment.wares.list.count]" context="false" filter="scripts"/>
+							</do_if>
+							<remove_value name="$Add"/>
+							<remove_value name="$ALIWharfBuild"/>
+							<remove_value name="$ALIWharf"/>
+							<remove_value name="$IShieldTempList"/>
+						</do_if>
+					</actions>
+				</library>
+			</cues>
+		</cue>
+	</cues>
 </mdscript>

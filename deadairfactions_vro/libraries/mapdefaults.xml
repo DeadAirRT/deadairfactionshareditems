@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<replace sel="//dataset[@macro='Cluster_DAL1_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL2_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL3_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL4_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL5_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL6_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL7_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAL8_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM1_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM2_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM3_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM4_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM5_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM6_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM7_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DAM8_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA1_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA2_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA3_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA4_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA5_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA6_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA7_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DGA8_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI1_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI2_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI3_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI4_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI5_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI6_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI7_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+	<replace sel="//dataset[@macro='Cluster_DMI8_macro']/properties/sounds/music"><music ref="Eve_Music"/></replace>
+</diff>
