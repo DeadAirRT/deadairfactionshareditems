@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<!-- DAMARR USE DAMARR ENERGY WEAPONS + GUIDED ONLY -->
-	<add sel="/wares/ware[@id='ship_arg_xl_battleship_a']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='ship_arg_xl_titan']">
-		<owner faction="damarr"/>
-	</add>
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="damarr"/>
 	</add>
@@ -26,9 +20,6 @@
 		<owner faction="damarr"/>
 	</add>
 	<!-- Mindatar use split projectile + missile -->
-	<add sel="/wares/ware[@id='ship_spl_xl_gharial']">
-		<owner faction="mindatar"/>
-	</add>
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="mindatar"/>
 	</add>
@@ -51,9 +42,6 @@
 		<owner faction="mindatar"/>
 	</add>
 	<!-- Galdente use short range + filler Paranid -->
-	<add sel="/wares/ware[@id='ship_par_xl_battleship_a']">
-		<owner faction="galdente"/>
-	</add>
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="galdente"/>
 	</add>
@@ -72,19 +60,47 @@
 	<add sel="/wares/ware[@id='missile_spectre']">
 		<owner faction="galdente"/>
 	</add>
-	<!-- Daldari use missiles + filler -->
-	<add sel="/wares/ware[@id='ship_tel_xl_battleship_a']">
-		<owner faction="daldari"/>
-	</add>
-	<add sel="/wares/ware[@id='ship_tel_l_shrike_a']">
-		<owner faction="daldari"/>
-	</add>
-	<add sel="/wares/ware[@id='ship_tel_m_trans_container_03_b']">
-		<owner faction="daldari"/>
-	</add>
+	<!-- Daldari use missiles + filler + gal railguns -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="daldari"/>
 	</add>
+	<add sel="/wares/ware[@id='turret_dga_l_425mm_iron']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_l_425mm_lead']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_m_250mm_iron_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_m_250mm_iron_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_m_250mm_lead_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_m_250mm_lead_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_t3bc_425mm_iron']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_dga_t3bc_425mm_lead']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_dga_m_iron']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_dga_m_lead']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_dga_s_iron']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_dga_s_lead']">
+		<owner faction="daldari"/>
+	</add>
+	
 	<!--
   <add sel="/wares/ware[@id='xxx']">
     <owner faction="damarr" />

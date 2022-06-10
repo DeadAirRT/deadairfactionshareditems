@@ -103,4 +103,15 @@
 	</subordinates>
   </job>
 </add>
+<replace sel="//job[@id='argon_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='antigone_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='paranid_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='holyorder_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='teladi_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='zyarth_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='terran_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='daldari_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='damarr_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='galdente_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
+<replace sel="//job[@id='mindatar_expedition_DA']/ship/select/@tags">[military, battleship]</replace>
 </diff>
