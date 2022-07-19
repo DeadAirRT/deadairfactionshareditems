@@ -4,60 +4,111 @@
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_dragonfly']">
+	<add sel="/wares/ware[@id='turret_dal_l_ham_01_mk1']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_tornado']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_01_mk1']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_flycatcher']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_02_mk1']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_silkworm']">
+	<add sel="/wares/ware[@id='turret_dal_t3bc_ham']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_banshee']">
+	<add sel="/wares/ware[@id='weapon_dal_s_lam']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_l_em']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_l_kinetic']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_em']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_kinetic']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_em']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="damarr"/>
 	</add>
 	<!-- Mindatar use split projectile + missile -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_dragonfly']">
+	<add sel="/wares/ware[@id='turret_dal_l_ham_01_mk1']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_tornado']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_01_mk1']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_scatter']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_02_mk1']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_starburst']">
+	<add sel="/wares/ware[@id='turret_dal_t3bc_ham']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_interceptor']">
+	<add sel="/wares/ware[@id='weapon_dal_s_lam']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_serpentnest']">
+	<add sel="/wares/ware[@id='missile_dal_ham_l_explosive']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_l_kinetic']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_explosive']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_kinetic']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_explosive']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="mindatar"/>
 	</add>
 	<!-- Galdente use short range + filler Paranid -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="galdente"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_blizzard']">
+	<add sel="/wares/ware[@id='turret_dal_l_ham_01_mk1']">
 		<owner faction="galdente"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_dragonfly']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_01_mk1']">
 		<owner faction="galdente"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_tornado']">
+	<add sel="/wares/ware[@id='turret_dal_m_ham_02_mk1']">
 		<owner faction="galdente"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_cyclone']">
+	<add sel="/wares/ware[@id='turret_dal_t3bc_ham']">
 		<owner faction="galdente"/>
 	</add>
-	<add sel="/wares/ware[@id='missile_spectre']">
+	<add sel="/wares/ware[@id='weapon_dal_s_lam']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_l_thermal']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_l_kinetic']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_thermal']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_ham_m_kinetic']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_thermal']">
+		<owner faction="galdente"/>
+	</add>
+	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="galdente"/>
 	</add>
 	<!-- Daldari use missiles + filler + gal railguns -->
