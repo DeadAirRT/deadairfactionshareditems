@@ -1,4 +1,0 @@
-<diff>
-	<replace sel="/components/component/connections/connection[@name='con_primaryweapon_01']/@tags"> weapon small platformcollision standard missile highpower </replace>
-	<replace sel="/components/component/connections/connection[@name='con_primaryweapon_02']/@tags"> weapon small platformcollision standard missile highpower </replace>
-</diff>

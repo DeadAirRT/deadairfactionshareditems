@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="//soundlibrary">
+		<sound id="Eve_Music" description="Ambient music shuffle" repeat="-1" is3d="0" preload="0">
+			<sample selection="random">
+				<select start="extensions\deadairfactionshareditems\music\eve_music\all_which_was_lost_has_now_been_regained"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\amongst_allies"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\at_the_end_of_your_journey"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\below_the_asteroids"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\bonanza_excavation"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\borderlines"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\but_still_we_go_on"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\close_to_a_holy_place"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\costs_of_conflict"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\defenders_of_the_orphic_world"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\everyday_zone"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\home_at_last"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\merchants_looters_and_ghosts"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\miner_stories"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\miners_heaven"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\nouvelle_rouvenor_hero"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\primordial_star_clouds"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\red_glowing_dust"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\seek_and_you_shall_find"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\shifting_the_balance_of_power"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\something_old_something_new"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\theme_from_jita"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\times_of_sanguinity"/>
+				<select start="extensions\deadairfactionshareditems\music\eve_music\we_fight_proud_for_the_holder"/>
+			</sample>
+			<volume start="0.8"/>
+			<effects>
+				<fade in="1" out="1"/>
+			</effects>
+		</sound>
+	</add>
+</diff>

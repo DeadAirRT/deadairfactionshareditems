@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="DeadAirFactionSharedItems" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir" version="600" date="2023-05-29" save="0" sync="false">
+	<dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
+	<dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
+	<dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+	<dependency id="ego_dlc_boron" optional="true" name="Fish People"/>
+	<dependency id="DeadAirGate" optional="true" name="DeadAirGate"/>
+	<dependency id="DeadAirGod" optional="true" name="DeadAirGod"/>
+	<dependency id="DeadAirJobs" optional="true" name="DeadAirJobs"/>
+	<dependency id="DeadAir_Ware" optional="true" name="DeadAir Ware"/>
+	<dependency id="DeadAirFactionAmarr" optional="true" name="DeadAir Faction Amarr"/>
+	<dependency id="DeadAirFactionDaldari" optional="true" name="DeadAir Faction Caldari"/>
+	<dependency id="DeadAirFactionGaldente" optional="true" name="DeadAir Faction Gallente"/>
+	<dependency id="DeadAirFactionMindatar" optional="true" name="DeadAir Faction Minmatar"/>
+	<dependency id="ws_1696862840" optional="true" name="VRO"/>
+	<dependency id="vro" optional="true" name="VRO"/>
+	<text language="7" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="33" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="34" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="39" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="44" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="45" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="49" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="81" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="82" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="86" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+	<text language="88" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir"/>
+</content>
