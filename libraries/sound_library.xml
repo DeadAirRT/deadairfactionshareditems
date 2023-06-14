@@ -28,9 +28,9 @@
 				<select start="extensions\deadairfactionshareditems\music\eve_music\times_of_sanguinity"/>
 				<select start="extensions\deadairfactionshareditems\music\eve_music\we_fight_proud_for_the_holder"/>
 			</sample>
-			<volume start="0.8"/>
+			<volume start="0.7" end="0.7"/>
 			<effects>
-				<fade in="1" out="1"/>
+				<fade in="0.7" out="0.7"/>
 			</effects>
 		</sound>
 	</add>
