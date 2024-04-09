@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactionSharedItems" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir" version="600" date="2023-05-29" save="0" sync="false">
+<content id="DeadAirFactionSharedItems" name="DeadAir Faction Shared Items" description="Shares weapons between factions and adds optional mod compatibility." author="DeadAir" version="620" date="2024-04-08" save="0" sync="false">
 	<dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
 	<dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
 	<dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
 	<dependency id="ego_dlc_boron" optional="true" name="Fish People"/>
-	<dependency id="DeadAirGate" optional="true" name="DeadAirGate"/>
-	<dependency id="DeadAirGod" optional="true" name="DeadAirGod"/>
-	<dependency id="DeadAirJobs" optional="true" name="DeadAirJobs"/>
-	<dependency id="DeadAir_Ware" optional="true" name="DeadAir Ware"/>
+	<dependency id="DeadAir_Eco" optional="false" name="DeadAir Eco"/>
 	<dependency id="DeadAirFactionAmarr" optional="true" name="DeadAir Faction Amarr"/>
 	<dependency id="DeadAirFactionDaldari" optional="true" name="DeadAir Faction Caldari"/>
 	<dependency id="DeadAirFactionGaldente" optional="true" name="DeadAir Faction Gallente"/>
