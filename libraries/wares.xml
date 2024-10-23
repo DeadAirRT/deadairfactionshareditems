@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<!-- DAMARR USE DAMARR ENERGY WEAPONS + GUIDED ONLY -->
+	<!-- Damarr use amarr energy + ham -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="damarr"/>
 	</add>
@@ -49,7 +49,7 @@
 	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="damarr"/>
 	</add>
-	<!-- Mindatar use split projectile + missile -->
+	<!-- Mindatar use minmatar projectile + ham -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="mindatar"/>
 	</add>
@@ -98,7 +98,7 @@
 	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="mindatar"/>
 	</add>
-	<!-- Galdente use short range + filler Paranid -->
+	<!-- Galdente use gallente projectile + ham -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="galdente"/>
 	</add>
@@ -147,57 +147,57 @@
 	<add sel="/wares/ware[@id='missile_dal_lam_s_kinetic']">
 		<owner faction="galdente"/>
 	</add>
-	<!-- Daldari use missiles + filler + gal railguns -->
+	<!-- Daldari use ham + gallente projectile -->
 	<add sel="/wares/ware[@id='weapon_gen_m_plasmabomb']">
 		<owner faction="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_l_425mm_iron']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_l_425mm_lead']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_m_250mm_iron_01']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_m_250mm_iron_02']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_m_250mm_lead_01']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_m_250mm_lead_02']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_t3bc_425mm_iron']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_dga_t3bc_425mm_lead']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_dga_m_iron']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_dga_m_lead']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_dga_s_iron']">
 		<owner faction="daldari"/>
-		<use threshold="0.7" factions="daldari"/>
+		<use threshold="0.5" factions="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_dga_s_lead']">
 		<owner faction="daldari"/>
-		<use threshold="0.5" factions="daldari"/>
+		<use threshold="0.0" factions="daldari"/>
 	</add>
 	
 	<!--

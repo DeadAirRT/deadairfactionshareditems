@@ -19,6 +19,7 @@
 					<actions>
 						<do_if value="not player.blueprints.{ware.paintmod_0001}.any.exists">
 							<add_blueprints wares="ware.paintmod_0001"/>
+							<add_inventory entity="player.entity" ware="ware.paintmod_0001" exact="100"/>
 						</do_if>
 					</actions>
 				</library>
